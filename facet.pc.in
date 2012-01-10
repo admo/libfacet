@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/@FacET_LIBRARY_DIR@
+includedir=${prefix}/@FacET_INCLUDE_DIR@
+
+Name: OpenCV
+Description: Intel(R) Open Source Computer Vision Library
+Version: 2.2.1
+Libs: -L${libdir} -lfacet
+Cflags: -I${includedir}
