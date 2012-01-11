@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 2.6)
 
 project(FacET)
 
+set (FacET_VERSION 2.2.1 CACHE STRING "FacET distribution version")
+SET (FacET_API_VERSION 2.2 CACHE STRING "FacET API version")
+
 set(FacET_SHARED_DIR share/FacET)
 set(FacET_INCLUDE_DIR include)
 set(FacET_LIBRARY_DIR lib)
@@ -18,3 +21,4 @@ configure_file(${FacET_PKGCONFIG_FILE}.in ${FacET_PKGCONFIG_FILE} @ONLY)
 install(FILES ${FacET_BINARY_DIR}/${FacET_PKGCONFIG_FILE} DESTINATION lib/pkgconfig)
 
 add_subdirectory (src)
+add_subdirectory (doc)

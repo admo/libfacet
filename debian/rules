@@ -11,3 +11,11 @@
 
 %:
 	dh $@ --parallel
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DBUILD_DOCUMENTATION=TRUE
+
+override_dh_auto_build:
+	dh_auto_build
+	# docs don't get built automatically
+	(cd obj-$(DEB_BUILD_GNU_TYPE) && make doc)

@@ -1,7 +1,7 @@
 Source: libfacet
 Priority: extra
 Maintainer: Adam Oleksy <adam.oleksy@pwr.wroc.pl>
-Build-Depends: debhelper (>= 7.0.50~), cmake, libcv-dev, libhighgui-dev, libcvaux-dev
+Build-Depends: debhelper (>= 7.0.50~), cmake, libcv-dev, libhighgui-dev, libcvaux-dev, doxygen, graphviz
 Standards-Version: 3.9.1
 Section: libs
 
@@ -40,3 +40,22 @@ Description: FacET (Facial Expression Tracker) - library
  Institute of Computer Engineering, Control and Robotics): 
  "Wykorzystanie systemu wizyjnego do rozpoznawania emocji czlowieka"
  ("Vision system in human emotions recognition").
+
+Package: libfacet-doc
+Section: doc
+Architecture: all
+Depends: ${misc:Depends}
+Description: FacET (Facial Expression Tracker) - documentation
+ FacET (Facial Expression Tracker) is a library of image processing
+ procedures for detecting and parameterising face components (eg. eyes,
+ eyebrows, lips, forehead wrinkles).
+ Such face features are useful for classification of human emotions
+ based on facial expression.
+ .
+ The current version of FacET was developed by Marek Wnuk and is
+ based on the application created for Marcin Namysl's Master thesis
+ (supervised by Marek Wnuk, Wroclaw University of Technology,
+ Institute of Computer Engineering, Control and Robotics):
+ "Wykorzystanie systemu wizyjnego do rozpoznawania emocji czlowieka"
+ ("Vision system in human emotions recognition").
+
