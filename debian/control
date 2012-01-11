@@ -8,7 +8,7 @@ Section: libs
 Package: libfacet-dev
 Section: libdevel
 Architecture: any
-Depends: libfacet (= ${binary:Version}), libcv-dev, libhighgui-dev, libcvaux-dev
+Depends: libfacet2.2 (= ${binary:Version}), libcv-dev, libhighgui-dev, libcvaux-dev
 Description: FacET (Facial Expression Tracker) - development files
  FacET (Facial Expression Tracker) is a library of image processing 
  procedures for detecting and parameterising face components (eg. eyes, 
