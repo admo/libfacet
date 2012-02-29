@@ -1,3 +1,10 @@
+libfacet (2.2.1-0ubuntu0lirec2~natty1) natty; urgency=low
+
+  * Dodanie pliku konfiguracyjnego
+  * Poprawienie HAVE_DOT
+
+ -- Adam Oleksy <adam.oleksy@pwr.wroc.pl>  Wed, 29 Feb 2012 10:42:10 +0100
+
 libfacet (2.2.1-0ubuntu0lirec1~natty1) natty; urgency=low
 
   * Initial release
