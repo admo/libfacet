@@ -1,3 +1,9 @@
+libfacet (2.2.1-0ubuntu0lirec3~natty1) natty; urgency=low
+
+  * Dodanie kaskad dla detektorow
+
+ -- Adam Oleksy <adam.oleksy@pwr.wroc.pl>  Wed, 29 Feb 2012 11:16:02 +0100
+
 libfacet (2.2.1-0ubuntu0lirec2~natty1) natty; urgency=low
 
   * Dodanie pliku konfiguracyjnego
