@@ -1,2 +1,6 @@
 usr/lib/lib*.so.*
 usr/share/FacET/*
+usr/share/FacET/cascades/*
+usr/share/FacET/cascades/eyes/*
+usr/share/FacET/cascades/mouth/*
+usr/share/FacET/cascades/nose/*
