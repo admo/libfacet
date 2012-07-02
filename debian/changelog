@@ -1,3 +1,9 @@
+libfacet (2.2.1-0ubuntu0lirec4~natty1) UNRELEASED; urgency=low
+
+  * Poprawienie VERSION i SOVERSION bibliotek
+
+ -- Adam Oleksy <adam.oleksy@pwr.wroc.pl>  Mon, 02 Jul 2012 20:51:18 +0200
+
 libfacet (2.2.1-0ubuntu0lirec3~natty1) natty;
 
   * Dodanie kaskad dla detektorow

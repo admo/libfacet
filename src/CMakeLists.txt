@@ -27,7 +27,7 @@ link_directories(${OpenCV_LINK_DIRECTORIES})
 add_library(facetShared SHARED ${FacET_SRC})
 target_link_libraries(facetShared ${OpenCV_LIBRARIES})
 set_target_properties (facetShared PROPERTIES
-  VERSION 2.2.1
+  VERSION 2.2
   SOVERSION 2.2.1
   OUTPUT_NAME facet
   )
@@ -36,7 +36,7 @@ install(TARGETS facetShared DESTINATION lib)
 add_library(facetStatic STATIC ${FacET_SRC})
 target_link_libraries(facetStatic ${OpenCV_LIBRARIES})
 set_target_properties (facetStatic PROPERTIES
-  VERSION 2.2.1
+  VERSION 2.2
   SOVERSION 2.2.1
   OUTPUT_NAME facet
   )
